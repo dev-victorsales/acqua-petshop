@@ -8,6 +8,7 @@ O Acqua Petshop é um petshop completo, criado com a proposta de atender todos o
 🧠 Este projeto conta com o apoio de inteligência artificial para auxiliar na geração de imagens.
 
 🚀 **Tecnologias Utilizadas**
+
 HTML5
 
 CSS3
@@ -40,6 +41,7 @@ Acqua Petshop is a complete petshop designed to care for all kinds of pets — f
 🧠 This project is supported by artificial intelligence for generating images.
 
 🚀 **Technologies Used**
+
 HTML5
 
 CSS3
