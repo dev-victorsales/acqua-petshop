@@ -17,9 +17,11 @@ CSS3
 (Em breve) JavaScript
 
 🎯 **Objetivo**
+
 Este projeto tem como objetivo praticar a criação de páginas web responsivas e bem organizadas, com foco em estruturação, estilização e usabilidade.
 
 🐾 Serviços destacados
+
 Banho e tosa
 
 Consultas veterinárias
@@ -51,9 +53,11 @@ CSS3
 (Coming soon) JavaScript
 
 🎯 **Purpose**
+
 This project aims to practice creating responsive and well-structured web pages, focusing on layout, design, and usability.
 
 🐾 **Featured Services**
+
 Grooming and baths
 
 Veterinary consultations
