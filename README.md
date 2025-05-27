@@ -1,4 +1,4 @@
-🇧🇷 Português
+🇧🇷 **Português**
 
 Acqua Petshop - Landing Page
 Landing page fictícia desenvolvida para fins de estudo, utilizando HTML e CSS. Em breve, será incluído JavaScript para adicionar interatividade à página.
@@ -30,7 +30,7 @@ Loja de rações e acessórios
 
 Atendimento a pets aquáticos e exóticos
 
-🇺🇸 English
+🇺🇸 **English**
 
 Acqua Petshop - Landing Page
 Fictional landing page developed for study purposes, using HTML and CSS. JavaScript will be added soon to enhance interactivity.
