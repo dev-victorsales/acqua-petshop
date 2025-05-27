@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main {
+    
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)), url('/assets/imagens/background.jpg');
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 100vw;
+}
+#hero-section {
+    min-height: 100vh;
+}
+#hero-section .menu {
+    width: 60px;  
+}
+#hero-section .menu-logo {
+    width: 120px;
+}
+
+#socials a:hover {
+    transform: translate(-3px, -3px);
+    transition: transform .5s;
+}
+
+
+
+#hero-section h2 {
+    padding-top: 100px;
+    text-align: center;
+    font-family: "Text Me One", sans-serif;
+    font-size: 1.5em;
+    
+}
+#action-button {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 1.5em;
+}
+#button {
+    display: inline-block;
+    
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 15px;
+    margin: 15px;
+    background-color: #0d1e3769;
+    text-align: center;
+    color: #de5f26;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: "Text Me One", sans-serif;
+}
+#button:hover {
+  transform: scale(1.1);
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 20px;
+    
+    
+}
+#socials a > img {
+    width: 50px;
+    padding: 10px;
+    
+}
+#about {
+    text-align: center;
+    padding: 30px;
+}
+#about h1 {
+    font-size: 2em;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: "Text Me One", sans-serif;
+}
+#about p {
+    color: white;
+    font-family: "Text Me One", sans-serif;
+    font-size: 1.5em;
+}
