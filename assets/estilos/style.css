@@ -9,14 +9,14 @@
 }
 main {
     
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)), url('../imagens/background.jpg');
-    background-position: center left;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.37), rgb(0, 0, 0)), url('../imagens/background.jpg');
+    background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    width: 100vw;
+    background-attachment: fixed;
+    min-width: 98vw;
 }
 #hero-section {
-    min-height: 100vh;
+    width: 98vw;
 }
 #hero-section .menu {
     width: 60px;  
@@ -32,21 +32,21 @@ main {
 
 
 
-#hero-section h2 {
-    padding-top: 100px;
+#hero-section h1 {
+    padding-top: 40px;
     text-align: center;
     font-family: "Text Me One", sans-serif;
     font-size: 1.5em;
+    color: #de5f26;
     
 }
-#action-button {
+.action-button {
     text-align: center;
     padding-top: 80px;
     font-size: 1.5em;
 }
 #button {
     display: inline-block;
-    
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
@@ -82,14 +82,107 @@ main {
     text-align: center;
     padding: 30px;
 }
-#about h1 {
+#about h2 {
     font-size: 2em;
     padding-top: 40px;
     padding-bottom: 20px;
     font-family: "Text Me One", sans-serif;
+    color: #de5f26;
 }
 #about p {
     color: white;
     font-family: "Text Me One", sans-serif;
     font-size: 1.5em;
+    
+    padding: 10px;
+    border-radius: 5px;
+}
+#services h1 {
+    text-align: center;
+    font-family: "Text Me One", sans-serif;
+    color: #de5f26;
+    padding-bottom: 10px;
+}
+#services p {
+    text-align: center;
+    font-family: "Text Me One", sans-serif;
+    padding-bottom: 5px;
+    color: white;
+
+}
+
+.menu-pet {
+    display: flex;
+    overflow-x: auto;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 34px;
+    text-align: center;
+}
+.sub-menu-pet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+.sub-menu-pet h3 {
+    text-align: center;
+    font-family: "Text Me One", sans-serif;
+    color: #de5f26;
+    padding: 10px;
+}
+.sub-menu-pet img {
+  max-width: 200px;
+  padding: 15px;
+  gap: 30px;
+  border-radius: 25px;
+}
+.sub-menu-pet p {
+    color: white;
+
+}
+#choose-us-child h1 {
+    padding: 20px;
+    color: #de5f26;
+}
+#choose-us-child li {
+    padding-bottom: 20px;
+}
+#choose-us-child {
+    color: white;
+    font-family: "Text Me One", sans-serif;
+    text-align: center;
+}
+#testimony h1 {
+    color: #de5f26;
+    font-family: "Text Me One", sans-serif;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+}
+#testimony-main {
+    display: flex;
+    overflow-x: auto;
+    justify-content: flex-start;
+    gap: 50px;
+    
+}
+#testimony-child p {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    max-width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#testimony-child  img {
+    width: 200px;
+    border-radius: 100px;
+    padding: 10px;
+    
+}
+#testimony-child aside {
+    color: #de5f26;
+    font-family: "Text Me One", sans-serif;
+    padding: 10px;
+    
 }
