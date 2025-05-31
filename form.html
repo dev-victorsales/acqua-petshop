@@ -36,6 +36,37 @@
             </ol>
             <aside>🔒 Todos os dados informados são protegidos e usados apenas para o processo de adoção.</aside>
         </section>
+
+        <section class="form-main">
+            <h2>Adote Aqui!</h2>
+            <form action="aprove.html" method="post" autocomplete="on">
+                <div class="form">
+                        <p>
+                            <label for="iName"><strong>Nome: </strong></label>
+                            <input type="text" name="Nome" id="iName" required class="input-text">
+                        </p>
+                        <p>
+                            <label for="iAge"><strong>Idade:</strong></label>
+                            <input type="number" name="age" id="iAge" min="18" max="65" required class="input-text">
+                        </p>
+                        <p>
+                            <label for="iMail"><strong>E-Mail:</strong></label>
+                            <input type="email" name="Mail" id="iMail" required class="input-text" >
+                        </p>
+                </div>
+                <div class="form">
+                    <label for="iAnimal"><strong>Você já teve algum animal antes?</strong></label>
+                    <input type="radio" name="Animal-Adopt" id="Adopt-Yes" value="YES" required> <label for="Adopt-Yes">Sim</label>
+                    <input type="radio" name="Animal-Adopt" id="Adopt-No" value="NO" required> <label for="Adopt-No">Não</label>
+                </div>
+                <div class="form">
+                    <label for="iLocal"><strong>Onde o pet vai viver?</strong></label>
+                    <p><i>[Ex: Em casa com quintal, apartamento, chácara...]</i></p>
+                    <input type="text" name="Local" id="iLocal" required class="input-text">
+                </div>
+            </form>     
+
+        </section>
     
 </body>
 </html>

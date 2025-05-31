@@ -1,110 +1,161 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap");
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
-    
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.37), rgb(0, 0, 0)), url('../imagens/background-extra.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width: 100%;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.37),
+      rgb(0, 0, 0)
+    ),
+    url("../imagens/background-extra.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
 }
 /* ====== Hero Section ====== */
 .hero-section {
-    width: 100%;
+  width: 100%;
 }
 .hero-section .menu {
-    width: 60px;  
+  width: 60px;
 }
 .hero-section .menu-logo {
-    width: 120px;
+  width: 120px;
 }
 
 #socials a:hover {
-    transform: translate(-3px, -3px);
-    transition: transform .5s;
+  transform: translate(-3px, -3px);
+  transition: transform 0.5s;
 }
 .hero-section h1 {
-    padding-top: 40px;
-    text-align: center;
-    font-family: "Text Me One", sans-serif;
-    font-size: 4em;
-    color: #de5f26;
-    
+  padding-top: 40px;
+  text-align: center;
+  font-family: "Text Me One", sans-serif;
+  font-size: 4em;
+  color: #de5f26;
 }
 .hero-section p {
-    padding-top: 40px;
-    text-align: center;
-    font-family: "Text Me One", sans-serif;
-    font-size: 2em;
-    color: #ffffff;
-
+  padding-top: 40px;
+  text-align: center;
+  font-family: "Text Me One", sans-serif;
+  font-size: 2em;
+  color: #ffffff;
 }
 .action-button {
-    text-align: center;
-    padding-top: 80px;
-    font-size: 1.5em;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 1.5em;
 }
 #button {
-    display: inline-block;
-    font-weight: bold;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    padding: 15px;
-    margin: 15px;
-    background-color: #0d1e3769;
-    text-align: center;
-    color: #de5f26;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1em;
-    font-family: "Text Me One", sans-serif;
+  display: inline-block;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 15px;
+  margin: 15px;
+  background-color: #0d1e3769;
+  text-align: center;
+  color: #de5f26;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-family: "Text Me One", sans-serif;
 }
 #button:hover {
   transform: scale(1.1);
 }
 #socials {
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    gap: 20px;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 #socials a > img {
-    width: 50px;
-    padding: 10px;
-    
+  width: 50px;
+  padding: 10px;
 }
 /* ====== Hero Section ====== */
 
 /* ====== Infos Section ====== */
 
 #infos h2 {
-    padding-top: 40px;
-    text-align: center;
-    font-family: "Text Me One", sans-serif;
-    font-size: 3em;
-    color: #de5f26;
-
+  padding-top: 40px;
+  text-align: center;
+  font-family: "Text Me One", sans-serif;
+  font-size: 3em;
+  color: #de5f26;
 }
 #infos {
-    text-align: center;
+  text-align: center;
 }
 #infos ol {
-    font-size: 2em;
-    color: white;
-    padding-top: 20px;
-    font-family: "Text Me One", sans-serif;
-
+  font-size: 2em;
+  color: white;
+  padding-top: 20px;
+  font-family: "Text Me One", sans-serif;
 }
 #infos aside {
-    color: white;
-    padding: 20px;
+  color: white;
+  padding: 20px;
 }
+.form-main {
+  background-color: rgba(0, 0, 0, 0.171);
+  padding: 20px;
+  margin: 50px;
+  border-radius: 10px;
+  font-family: "Text Me One", sans-serif;
+}
+.form-main h2 {
+  color: #de5f26;
+  font-size: 3em;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.form-main label {
+  color: #000000;
+  font-size: 1.5em;
+}
+.form {
+    padding: 10px;
+}
+.form p {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+.form > p > label {
+    color: white;
+}
+form label {
+    width: 80px;
+    text-align: center;
+}
+.input-text {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #de5f26;
+    background-color: #ffffff;
+    border: 2px solid #3a3a4f;
+    border-radius: 8px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  .input-text:focus {
+    border-color: #de5f26;
+    box-shadow: 0 0 0 3px #d48f6f;
+  }
