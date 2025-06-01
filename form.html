@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/estilos/style_form.css">
+    <link rel="shortcut icon" href="assets/icon/favicon.ico" type="image/x-icon">
     <title>Acqua Petshop - Adote um amigo!</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
             <img src="assets/imagens/logo-nobg.png" alt="logo-petshop" class="menu-logo">
             <a href="index.html"><img src="assets/imagens/home.png" alt="home" class="menu"></a>
             <a href="#"><img src="assets/imagens/checklist.png" alt="carrinho" class="menu"></a>
-            <a href="#"><img src="assets/imagens/pata.png" alt="sobre" class="menu"></a>
+            <a href="form.html"><img src="assets/imagens/pata.png" alt="sobre" class="menu"></a>
         </div>
 
         <h1 id="action-click">🐾 Adote um Amigo de Quatro Patas!</h1>
@@ -22,7 +23,7 @@
         </p>
 
         <div class="action-button">
-            <a href="#" id="button">Saiba Mais</a>
+            <a href="#infos" id="button">Saiba Mais</a>
         </div>
         </section>
 
@@ -55,18 +56,51 @@
                         </p>
                 </div>
                 <div class="form">
-                    <label for="iAnimal"><strong>Você já teve algum animal antes?</strong></label>
-                    <input type="radio" name="Animal-Adopt" id="Adopt-Yes" value="YES" required> <label for="Adopt-Yes">Sim</label>
-                    <input type="radio" name="Animal-Adopt" id="Adopt-No" value="NO" required> <label for="Adopt-No">Não</label>
+                    <p>
+                        <label for="iLocal"><strong>Onde o Pet vai viver?</strong></label>
+                        <input type="text" name="Local" id="iLocal" required class="input-text">
+                    </p>
                 </div>
                 <div class="form">
-                    <label for="iLocal"><strong>Onde o pet vai viver?</strong></label>
-                    <p><i>[Ex: Em casa com quintal, apartamento, chácara...]</i></p>
-                    <input type="text" name="Local" id="iLocal" required class="input-text">
+                    <p>
+                        <label for="iAnimal"><strong>Você já teve algum animal antes?</strong></label>
+                        <input type="radio" name="Animal-Adopt" id="Adopt-Yes" value="YES" required> <label for="Adopt-Yes">Sim</label>
+                        <input type="radio" name="Animal-Adopt" id="Adopt-No" value="NO" required> <label for="Adopt-No">Não</label>
+                    </p>
                 </div>
-            </form>     
+
+                <div class="form">
+                    <input type="submit" value="Enviar" class="button-submit">
+                    <input type="reset" value="Limpar" class="button-submit">
+                </div>
+                <div>
+                    <aside>🔒 Todos os dados informados são protegidos e usados apenas para o processo de adoção.</aside>
+                </div>
+            </form> 
 
         </section>
+        <section id="contact-main">
+            <div id="contact-child">
+                
+                <h1>Fale com a gente!</h1>
+                <p>Quer agendar um serviço ou tirar dúvidas? Estamos aqui para ajudar!</p>
+                <address>
+                    <p>📍 <a href="https://maps.app.goo.gl/pgw5P1rZGFR8TYN48" target="_blank">Rua dos Bichinhos Felizes, 123</a> – <strong>Fortaleza, CE</strong></p>
+                </address>
+                    <p>📞 <a href="tel:+5585999999999">(85) 99999-9999</a></p>
+                    <p>📧 <a href="mailto:contato@acquapetshop.com">contato@acquapetshop.com</a></p>
+                    <p>🕒 Atendimento: <strong>Seg a Sáb – 08h às 18h</strong></p>
+            </div>
+        </section>
+        
+        <footer id="footer-main">
+            <div id="footer-child">
+                <p><a href="#hero-section">Início</a> | <a href="#services-main">Serviços</a> | <a href="#contact-main">Contato</a> | <a href="https://instagram.com" target="_blank">Instagram</a></p>
+                <p>Acqua Petshop – Cuidando com amor de quem te dá amor! 🐾</p>
+                <p>Desenvolvido por <strong><a href="https://github.com/dev-victorsales">Victor Sales</a></strong></p>
+            </div>
+
+        </footer>
     
 </body>
 </html>

@@ -103,10 +103,15 @@ body {
   padding-top: 20px;
   font-family: "Text Me One", sans-serif;
 }
-#infos aside {
+aside {
   color: white;
   padding: 20px;
+  font-family: "Text Me One", sans-serif;
+  text-align: center;
 }
+/* ====== Infos Section ====== */
+
+/* ====== Form Section ====== */
 .form-main {
   background-color: rgba(0, 0, 0, 0.171);
   padding: 20px;
@@ -137,8 +142,11 @@ body {
 .form > p > label {
     color: white;
 }
+.form > p > i {
+    color: white;
+}
 form label {
-    width: 80px;
+    width: 200px;
     text-align: center;
 }
 .input-text {
@@ -149,7 +157,7 @@ form label {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #de5f26;
     background-color: #ffffff;
-    border: 2px solid #3a3a4f;
+    border: 2px solid #dd9573;
     border-radius: 8px;
     outline: none;
     box-sizing: border-box;
@@ -159,3 +167,79 @@ form label {
     border-color: #de5f26;
     box-shadow: 0 0 0 3px #d48f6f;
   }
+  
+  .button-submit {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  background-color: #de5f26;
+  border: 2px solid #de5f26;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.button-submit:hover {
+  background-color: #c7511c;
+  box-shadow: 0 4px 12px rgba(222, 95, 38, 0.3);
+  transform: translateY(-2px);
+}
+
+.button-submit:active {
+  background-color: #a63f15;
+  transform: translateY(0);
+}
+
+.button-submit:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #d48f6f;
+}
+/* ====== Form Section ====== */
+
+/* ====== Contact Section ====== */
+#contact-child {
+    font-family: "Text Me One", sans-serif;
+    padding: 30px;
+    text-align: right;
+    
+}
+#contact-child h1 {
+    font-family: "Text Me One", sans-serif;
+    color: #de5f26;
+}
+#contact-child p {
+    font-family: "Text Me One", sans-serif;
+    color: white;
+}
+#contact-child a {
+    font-family: "Text Me One", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+#contact-child a:hover {
+    font-family: "Text Me One", sans-serif;
+    color: #de5f26;
+    text-decoration: underline;
+}
+/* ====== Contact Section ====== */
+
+/* ====== Footer Section ====== */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    font-family: "Text Me One", sans-serif;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+
+}
+footer a:hover {
+    text-decoration: underline;
+    color: #de5f26;
+    
+}
+/* ====== Footer Section ====== */
