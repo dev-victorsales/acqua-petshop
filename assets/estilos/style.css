@@ -239,3 +239,15 @@ footer a:hover {
     
 }
 /* ====== Footer Section ====== */
+
+/* ====== Media Queries ====== */
+
+@media (orientation: portrait) {
+
+    main {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.37), rgb(0, 0, 0)), url('../imagens/background-portrait.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    
+}

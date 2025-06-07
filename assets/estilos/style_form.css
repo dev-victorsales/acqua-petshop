@@ -130,54 +130,55 @@ aside {
   font-size: 1.5em;
 }
 .form {
-    padding: 10px;
+  padding: 10px;
 }
 .form p {
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 16px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
 }
 .form > p > label {
-    color: white;
+  color: white;
 }
 .form > p > i {
-    color: white;
+  color: white;
 }
 form label {
-    width: 200px;
-    text-align: center;
+  width: 200px;
+  text-align: center;
 }
 .input-text {
-    width: 100%;
-    max-width: 400px;
-    padding: 12px 16px;
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #de5f26;
-    background-color: #ffffff;
-    border: 2px solid #dd9573;
-    border-radius: 8px;
-    outline: none;
-    box-sizing: border-box;
-    transition: border 0.3s ease, box-shadow 0.3s ease;
-  }
-  .input-text:focus {
-    border-color: #de5f26;
-    box-shadow: 0 0 0 3px #d48f6f;
-  }
-  
-  .button-submit {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #de5f26;
+  background-color: #ffffff;
+  border: 2px solid #dd9573;
+  border-radius: 8px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+.input-text:focus {
+  border-color: #de5f26;
+  box-shadow: 0 0 0 3px #d48f6f;
+}
+
+.button-submit {
   padding: 12px 24px;
   font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #ffffff;
   background-color: #de5f26;
   border: 2px solid #de5f26;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    transform 0.2s ease;
 }
 
 .button-submit:hover {
@@ -199,47 +200,67 @@ form label {
 
 /* ====== Contact Section ====== */
 #contact-child {
-    font-family: "Text Me One", sans-serif;
-    padding: 30px;
-    text-align: right;
-    
+  font-family: "Text Me One", sans-serif;
+  padding: 30px;
+  text-align: right;
 }
 #contact-child h1 {
-    font-family: "Text Me One", sans-serif;
-    color: #de5f26;
+  font-family: "Text Me One", sans-serif;
+  color: #de5f26;
 }
 #contact-child p {
-    font-family: "Text Me One", sans-serif;
-    color: white;
+  font-family: "Text Me One", sans-serif;
+  color: white;
 }
 #contact-child a {
-    font-family: "Text Me One", sans-serif;
-    color: white;
-    text-decoration: none;
+  font-family: "Text Me One", sans-serif;
+  color: white;
+  text-decoration: none;
 }
 #contact-child a:hover {
-    font-family: "Text Me One", sans-serif;
-    color: #de5f26;
-    text-decoration: underline;
+  font-family: "Text Me One", sans-serif;
+  color: #de5f26;
+  text-decoration: underline;
 }
 /* ====== Contact Section ====== */
 
 /* ====== Footer Section ====== */
 footer {
-    text-align: center;
-    padding: 20px;
-    color: white;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0));
-    font-family: "Text Me One", sans-serif;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+  font-family: "Text Me One", sans-serif;
 }
 footer a {
-    text-decoration: none;
-    color: white;
-
+  text-decoration: none;
+  color: white;
 }
 footer a:hover {
-    text-decoration: underline;
-    color: #de5f26;
-    
+  text-decoration: underline;
+  color: #de5f26;
 }
 /* ====== Footer Section ====== */
+
+/* ====== Media Queries ====== */
+
+@media (orientation: portrait) {
+  body {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.37),
+        rgb(0, 0, 0)
+      ),
+      url("../imagens/background-extra-portrait.jpg");
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+  }
+  .hero-section h1 {
+    font-size: 2em;
+  }
+  .hero-section p {
+  font-size: 1em;
+  padding: 20px;
+}
+}
